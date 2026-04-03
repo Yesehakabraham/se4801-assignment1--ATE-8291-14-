@@ -1,4 +1,5 @@
-// Student Number: [YOUR_STUDENT_NUMBER]
+// Student Number: [ATE/8291/14]
+// Student Name : YESEHAK ABRAHAM
 package com.shopwave.dto;
 
 import lombok.AllArgsConstructor;

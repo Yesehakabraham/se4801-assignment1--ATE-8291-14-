@@ -1,4 +1,5 @@
-// Student Number: [YOUR_STUDENT_NUMBER]
+// Student Number: [ATE/8291/14]
+// Student Name : YESEHAK ABRAHAM
 package com.shopwave.controller;
 
 import com.shopwave.dto.CreateProductRequest;
@@ -30,7 +31,7 @@ public class ProductController {
             @PageableDefault(size = 10) Pageable pageable) {
         return ResponseEntity.ok(productService.getAllProducts(pageable));
     }
-
+    //add some
     // GET /api/products/{id}
     @GetMapping("/products/{id}")
     public ResponseEntity<ProductDTO> getProductById(@PathVariable Long id) {
